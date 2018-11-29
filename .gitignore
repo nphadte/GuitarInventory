@@ -15,6 +15,10 @@
 *.iws
 *.iml
 *.ipr
+*.sql
+*.log
+*.gz
+/bin
 
 ### NetBeans ###
 /nbproject/private/

@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
 
 @Entity
-@NamedQuery(name="Model.findAllModelsByType", query="select m from model m where m.modelType.name = :name")
+//@NamedQuery(name="Model.findAllModelsByType", query="select m from model m where m.modelType.name = :name")
 
 public class Model {
 	@Id

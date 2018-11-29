@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
