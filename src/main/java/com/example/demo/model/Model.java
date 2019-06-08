@@ -19,9 +19,13 @@ public class Model {
 	private Long id;
 
 	private String name;
+
 	private BigDecimal price;
+
 	private int frets;
+
 	private String woodType;
+
 	private Date yearFirstMade;
 
 	@ManyToOne
@@ -89,4 +93,5 @@ public class Model {
 	public Long getId() {
 		return id;
 	}
+
 }

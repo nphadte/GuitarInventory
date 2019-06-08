@@ -1,0 +1,28 @@
+
+https://github.com/dlbunker/ps-guitar-db
+
+Model
+    Manufacturer
+    Location
+    ModelType
+    Model
+
+ 2 Parent lookup table , ModelType and Location
+
+ JUnit Tests in the src/test  folder
+
+
+    @Entity
+
+    @Service
+
+    Repository is an interface and uses the anotation @Repository. Repository is limited to perform operations on a single Entity, hence we need to use
+    Services to perform and interact data from multiple repositories.
+
+    Repositories can inject other Repositories , Services can inject multiple repositories and other Services, whereas controllers can inject multiple Services
+    and multiple Repositories.
+
+
+    Important videos
+        JpaRepository Features
+

@@ -10,7 +10,6 @@ public class Location {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="LOC_ID")
 	private Long id;
 
 	private String state;
