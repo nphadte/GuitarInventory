@@ -13,6 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		//ConfigurabelApplicationContext has beeen configured
 
+
 		// need to shut it down when the application exits
 	}
 }
